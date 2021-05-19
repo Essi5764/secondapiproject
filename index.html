@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>API 2 PROJECT</h1>
+  <h2>DEPLOYED WITH FIREBASE</h2>
+  <h3>YEARLY CALENDAR</h3>
+    <div class="center">
+        
+
+        <div class="header">
+            
+          <form> 
+            <!-- <input type="text"> -->
+            <p>
+              <label for="search">Enter a type of holiday:{ National, Local, Religious, Observance } (required): </label>
+              <input type="text" id="search" class="search" required>
+          </p>
+          <p>
+            Enter a month {1-12}: <input type="number" name="month" id="monthInput" required>
+              <!-- <label for="start-date">Enter a start date (format YYYYMMDD): </label>
+              <input type="date" id="start-date" class="start-date" pattern="[0-9]{8}"> -->
+          </p>
+          
+          <p>
+              <button class="submit">Submit search</button>
+          </p>
+            
+          </form>
+            
+        </div>
+          
+        <table id="holidays">
+          <thead> 
+            <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody id="myTable">
+          
+        </tbody> 
+          
+            
+        </table>
+
+
+        
+
+        <!-- <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+       
+        <div class="month">      
+          <ul>
+            <li class="prev">&#10094;</li>
+            <li class="next">&#10095;</li>
+            <li>
+              August<br>
+              <span style="font-size:18px">2021</span>
+            </li>
+          </ul>
+        </div>
+        
+        <ul class="weekdays">
+          <li>Mo</li>
+          <li>Tu</li>
+          <li>We</li>
+          <li>Th</li>
+          <li>Fr</li>
+          <li>Sa</li>
+          <li>Su</li>
+        </ul>
+        
+        <ul class="days">  
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li><span class="active">10</span></li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul> -->
+        
+
+    </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.6.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.6.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
